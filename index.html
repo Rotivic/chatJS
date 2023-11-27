@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="./ServerSide/node_modules/socket.io/client-dist/socket.io.js"></script>
+  <script src="./script.js"></script>
+  <title>Chat en tiempo real</title>
+</head>
+
+<body>
+  <header>
+    <h1>Chat en tiempo real</h1>
+  </header>
+  <div class="container">
+    <div class="chat-window">
+      <div class="chat-area">
+        <div class="chat-messages">
+         
+        </div>
+      </div>
+      <div class="user-input">
+        <input type="text" id="message-input" placeholder="Escribe aquí...">
+        <button id="send-button">Enviar</button>
+        <button id="close-button">Desconectarse</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
