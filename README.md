@@ -14,7 +14,7 @@ Una aplicación de chat simple en tiempo real construida con Socket.IO en el lad
 
 ## Instalación
 
-**Nota:** Asegúrate de cambiar rutas absolutas en el apartado del servidor para que todo funcione correctamente.
+**Nota:** Asegúrate de cambiar rutas absolutas en el apartado del servidor para que todo funcione correctamente 😖.
 
 
 1. **Clona el repositorio:**
@@ -40,9 +40,9 @@ Una aplicación de chat simple en tiempo real construida con Socket.IO en el lad
 ## Estructura del proyecto
 
  - index.html: Página principal de la aplicación.
- - public/: Carpeta que contiene archivos estáticos (CSS, JS).
+ - script.js / style.css: Carpeta que contiene archivos estáticos (CSS, JS).
  - server.js: Lógica del servidor.
 
 ## Contribuciones
 
-    Cualquier contribución es bienvenida, esto es un formato bastante simple, sin mucha idea de la estructuración real de un proyecto, así que cualquier mejoría o consejo se acepta enormemente 😁
+Cualquier contribución es bienvenida, esto es un formato bastante simple, sin mucha idea de la estructuración real de un proyecto, así que cualquier mejoría o consejo se acepta enormemente 😁
